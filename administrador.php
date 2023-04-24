@@ -3,5 +3,6 @@
 require 'persona.php';
 class Administrador extends Persona
 {
-public $nombre = 'Administrador';
+public $nombre = 'Administrador'; 
+public $edad = 31;
 }

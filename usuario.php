@@ -3,4 +3,5 @@
  class Usuario
  {
   public $tipo;
+  public $edad;
  }

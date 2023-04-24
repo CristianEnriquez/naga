@@ -7,4 +7,9 @@ class Persona
    return "hola $this->nombre";
 }
 
+
+public function saber_edad()
+{
+   return $this->edad;
+}
 }
