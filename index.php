@@ -13,3 +13,7 @@ echo $usuario->tipo->saber_edad();
 // tambien se usa la funcion var_dump para saber el tipo del valor guardado
 echo '<br>';
 var_dump($usuario->tipo->saber_edad());
+//almacena la edad en una nueva variable
+$aux = $usuario->tipo->saber_edad();
+echo '<br>';
+echo 'La edad es ' . $aux;
