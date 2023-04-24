@@ -7,6 +7,11 @@ $usuario = new Usuario;
 $usuario->tipo = new Administrador;
 
 echo $usuario->tipo->saludo(); 
-echo <br>;
+echo "<br>";
 // probando rama nueva
 echo 'duplicado ' . $usuario->tipo->saludo(); 
+
+echo "<br>";
+
+// llamao al metodo de persona
+echo $usuario->tipo->discurso('wow');
